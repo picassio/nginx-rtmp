@@ -7,9 +7,9 @@ docker-compose up -d
 ```
 
 ### Stream key 
-+ URL: rtpm://public_ip/live
++ URL: rtpm://public_ip:1935/live
 + Stream Key: 123host (or something else)
 
 ### Playback url
-+ http://public_ip:1935/live/stream_key
++ http://public_ip/live/stream_key
 eg: http://public_ip/live/123host
